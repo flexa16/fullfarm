@@ -1,0 +1,13 @@
+by\flex\list\ListController.class
+by\flex\list\services\UserService.class
+by\flex\pojo\AppUser.class
+by\flex\WebMvcInitializer.class
+by\flex\pojo\AppRole.class
+by\flex\repositories\AppUserRepository.class
+by\flex\WebMvcConfiguration.class
+by\flex\security\SecurityInitializer.class
+by\flex\repositories\AppRoleRepository.class
+by\flex\WelcomePageController.class
+by\flex\user\UserRegistrationController.class
+by\flex\pojo\RoleName.class
+by\flex\security\SecurityConfiguration.class

@@ -1,0 +1,7 @@
+by\flex\controller\HeaterController.class
+by\flex\controller\LampController.class
+by\flex\controller\DispenserController.class
+by\flex\RestApp.class
+by\flex\controller\PumpController.class
+by\flex\controller\FilterController.class
+by\flex\controller\FlowerController.class

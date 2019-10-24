@@ -1,0 +1,22 @@
+package by.flex.pojos.dash;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Document(collection = "dispensers")
+public class DispenserDto {
+
+    private long id;
+    private String name;
+    private int valvesCount;
+    private double powerUsage;
+    private double waterUsage;
+    private int toValves;
+
+}
