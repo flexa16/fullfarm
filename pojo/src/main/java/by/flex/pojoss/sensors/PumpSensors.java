@@ -13,7 +13,6 @@ public class PumpSensors implements Serializable {
     private boolean powerStatus;
     private double waterUsage;
     private double powerUsage;
-    private Pump pump;
 
     public PumpSensors(boolean powerStatus, double waterUsage, double powerUsage) {
         this.powerStatus = powerStatus;

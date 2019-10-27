@@ -15,7 +15,6 @@ public class FlowerSensors implements Serializable {
     private double thermometer;
     private double moistureMeter;
     private double mineralsMeter;
-    private Flower sensor;
 
     public FlowerSensors(double luxometer, double thermometer, double moistureMeter, double mineralsMeter) {
         this.luxometer = luxometer;

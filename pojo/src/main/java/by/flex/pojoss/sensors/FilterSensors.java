@@ -13,7 +13,6 @@ public class FilterSensors implements Serializable {
     private int capacity;
     private int filterHealth;
     private double powerUsage;
-    private Filter filter;
 
     public FilterSensors(int capacity, int filterHealth, double powerUsage) {
         this.capacity = capacity;

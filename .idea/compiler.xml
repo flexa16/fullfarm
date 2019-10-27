@@ -16,10 +16,15 @@
         <module name="pojo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dash" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dash" options="-parameters" />
       <module name="dashboard" options="-parameters" />
+      <module name="fullfarm" options="" />
       <module name="handler" options="-parameters" />
       <module name="pojo" options="-parameters" />
       <module name="rest" options="-parameters" />

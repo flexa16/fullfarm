@@ -13,6 +13,7 @@
         <module>rest</module>
         <module>dashboard</module>
         <module>handler</module>
+
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -30,12 +31,6 @@
 
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.apache.maven.shared</groupId>
-            <artifactId>maven-invoker</artifactId>
-            <version>3.0.0</version>
-        </dependency>
         <!-- SPRING -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

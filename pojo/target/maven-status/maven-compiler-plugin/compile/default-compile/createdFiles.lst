@@ -3,6 +3,10 @@ by\flex\pojoss\sensors\FlowerSensors.class
 by\flex\pojoss\devices\Dispenser.class
 by\flex\repo\LampRepository.class
 by\flex\pojoss\devices\Flower.class
+by\flex\repo\DispenserRepositoryDto.class
+by\flex\repo\PumpRepositoryDto.class
+by\flex\repo\LampRepositoryDto.class
+by\flex\repo\FilterRepositoryDto.class
 by\flex\services\FlowerService.class
 by\flex\dto\HeaterDto.class
 by\flex\pojoss\devices\Heater.class
@@ -12,9 +16,11 @@ by\flex\pojoss\devices\Pump.class
 by\flex\dto\PumpDto.class
 by\flex\pojoss\devices\Lamp.class
 by\flex\repo\PumpRepository.class
+by\flex\repo\HeaterRepositoryDto.class
 by\flex\dto\FlowerDto.class
 by\flex\repo\DispenserRepository.class
 by\flex\services\FilterService.class
+by\flex\repo\FlowerRepositoryDto.class
 by\flex\repo\HeaterRepository.class
 by\flex\dto\LampDto.class
 by\flex\services\HeaterService.class

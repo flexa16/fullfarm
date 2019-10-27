@@ -12,7 +12,6 @@ public class LampSensors implements Serializable {
 
     private double powerUsage;
     private double brightness;
-    private Lamp lamp;
 
     public LampSensors(double powerUsage, double brightness) {
         this.powerUsage = powerUsage;

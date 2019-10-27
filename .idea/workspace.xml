@@ -1,13 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7dd543-fdd3-4625-9546-a3f56634e5fe" name="Default Changelist" comment="" />
+    <list default="true" id="0f7dd543-fdd3-4625-9546-a3f56634e5fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/DashApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/MainPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/DispenserRepositoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/FilterRepositoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/FlowerRepositoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/HeaterRepositoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/LampRepositoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/PumpRepositoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/WebMvcInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/WelcomePageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/list/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/list/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/security/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/security/SecurityInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/user/UserRegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/WebMvcConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/classes/by/flex/WebMvcConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/WebMvcInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/WelcomePageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/list/ListController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/list/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/security/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/security/SecurityInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/user/UserRegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/classes/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/WebMvcConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/WebMvcConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/WebMvcInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/WebMvcInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/WelcomePageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/list/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/list/ListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/list/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/security/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/security/SecurityInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/by/flex/user/UserRegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/classes/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/jsp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/src/main/java/by/flex/HandlerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/handler/src/main/java/by/flex/HandlerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/src/main/java/by/flex/service/DispenserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/handler/src/main/java/by/flex/mongo_service/DispenserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/src/main/java/by/flex/service/FilterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/handler/src/main/java/by/flex/mongo_service/FilterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/src/main/java/by/flex/service/FlowerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/handler/src/main/java/by/flex/mongo_service/FlowerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/src/main/java/by/flex/service/HeaterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/handler/src/main/java/by/flex/mongo_service/HeaterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/src/main/java/by/flex/service/LampService.java" beforeDir="false" afterPath="$PROJECT_DIR$/handler/src/main/java/by/flex/mongo_service/LampService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/src/main/java/by/flex/service/PumpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/handler/src/main/java/by/flex/mongo_service/PumpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/classes/by/flex/HandlerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/handler/target/classes/by/flex/HandlerApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/classes/by/flex/service/DispenserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/classes/by/flex/service/FilterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/classes/by/flex/service/FlowerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/classes/by/flex/service/HeaterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/classes/by/flex/service/LampService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/classes/by/flex/service/PumpService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/handler-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/handler/target/handler-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/handler/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/handler/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/DispenserSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/DispenserSensors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/FilterSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/FilterSensors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/FlowerSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/FlowerSensors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/HeaterSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/HeaterSensors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/LampSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/LampSensors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/PumpSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/PumpSensors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/DispenserSensors.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/DispenserSensors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/FilterSensors.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/FilterSensors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/FlowerSensors.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/FlowerSensors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/HeaterSensors.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/HeaterSensors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/LampSensors.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/LampSensors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/PumpSensors.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/sensors/PumpSensors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/target/pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/pojo/target/" />
     <ignored path="$PROJECT_DIR$/rest/target/" />
     <ignored path="$PROJECT_DIR$/dashboard/target/" />
     <ignored path="$PROJECT_DIR$/handler/target/" />
+    <ignored path="$PROJECT_DIR$/dash/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +109,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/FlowerService.java">
+        <entry file="file://$PROJECT_DIR$/dashboard/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="87">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.8.RELEASE/spring-boot-dependencies-2.1.8.RELEASE.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="527" column="6" selection-start-line="527" selection-start-column="6" selection-end-line="527" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/LampSensors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/PumpSensors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/ListController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/MainPageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,92 +169,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/HeaterService.java">
+        <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="220">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/DispenserController.java">
+        <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/WebMvcConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/FilterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="-61">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1547#1548#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/FlowerController.java">
+        <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/DashApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="140">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/PumpController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-              <folding>
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/LampService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/PumpService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-148">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pojo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/FilterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -129,6 +210,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -147,52 +229,18 @@
       <replace>pump</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/service/FlowerService.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/service/HeaterService.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/service/LampService.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/service/PumpService.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/HandlerApp.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash/DispenserDto.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash/FilterDto.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash/FlowerDto.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash/HeaterDto.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash/LampDto.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash/PumpDto.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/PumpSensors.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/LampSensors.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/HeaterSensors.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/FlowerSensors.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/FilterSensors.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/DispenserSensors.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Pump.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Lamp.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Heater.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Flower.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Filter.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Dispenser.java" />
-        <option value="$PROJECT_DIR$/rest/src/main/java/by/flex/controller/FilterController.java" />
-        <option value="$PROJECT_DIR$/rest/src/main/java/by/flex/controller/FlowerController.java" />
-        <option value="$PROJECT_DIR$/rest/src/main/java/by/flex/controller/HeaterController.java" />
-        <option value="$PROJECT_DIR$/rest/src/main/java/by/flex/controller/LampController.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/FilterDto.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/FlowerDto.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/HeaterDto.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/LampDto.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Dispenser.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Filter.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Flower.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Heater.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Lamp.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Pump.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/DispenserSensors.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/FilterSensors.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/FlowerSensors.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/HeaterSensors.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/LampSensors.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/PumpSensors.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/FlowerService.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/DispenserService.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/FilterService.java" />
@@ -201,6 +249,43 @@
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/PumpService.java" />
         <option value="$PROJECT_DIR$/rest/src/main/java/by/flex/controller/DispenserController.java" />
         <option value="$PROJECT_DIR$/rest/src/main/java/by/flex/controller/PumpController.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/mongo/MongoFactory.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/repositories/FilterRepositoryDash.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/repositories/DispenserRepositoryDto.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/repositories/PumpRepositoryDto.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/DispenserRepositoryDto.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/FlowerRepositoryDto.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/HeaterRepositoryDto.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/LampRepositoryDto.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/PumpRepositoryDto.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/mongo_service/DispenserServiceD.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/security/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/resources/database.properties" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/resources/mongo.properties" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/MongoProperties.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/resources/mongo.yml" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/MongoProp.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/MongoConfig.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/header.jsp" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/list/ListController.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/welcome.jsp" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/DispenserSensors.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/FilterSensors.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/FlowerSensors.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/HeaterSensors.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/LampSensors.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/PumpSensors.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/WebMvcInitializer.java" />
+        <option value="$PROJECT_DIR$/dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/vvv.html" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/ListController.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/DashApp.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/WebMvcConfiguration.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/MainPageController.java" />
       </list>
     </option>
   </component>
@@ -216,6 +301,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="fullfarm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -228,16 +322,21 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="81" />
-    <option name="y" value="-18" />
+    <option name="x" value="-162" />
+    <option name="y" value="-21" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,79 +347,174 @@
             <path>
               <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="by" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="by" type="462c0819:PsiDirectoryNode" />
-              <item name="flex" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="flex" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="flex" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SOFRepos-master/Spring-Boot-Jsp-Demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -329,21 +523,21 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\fullfarm\handler\src\main\java\by\flex\pojos\dash" />
-      <recent name="C:\fullfarm\handler\src\main\java\by\flex\pojos" />
-      <recent name="C:\fullfarm\handler\src\main\java\by\flex\pojo\rest" />
-      <recent name="C:\fullfarm\handler\src\main\java\by\flex" />
-      <recent name="C:\fullfarm\handler\src\main\java\by\flex\repository\rest" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\fullfarm\handler\src\main\resources" />
+      <recent name="C:\fullfarm\dashboard\src\main" />
+      <recent name="C:\fullfarm\dashboard\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="by.flex.mongo" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\fullfarm\handler\src\main\resources" />
-      <recent name="C:\fullfarm\dashboard\src\main" />
-      <recent name="C:\fullfarm\dashboard\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\fullfarm\dashboard\src\main\resources" />
+      <recent name="C:\fullfarm\dashboard\src\main\webapp\WEB-INF" />
+      <recent name="C:\fullfarm\dashboard\src\main\java\by\flex\repositories" />
+      <recent name="C:\fullfarm\handler\src\main\java\by\flex\pojos\dash" />
+      <recent name="C:\fullfarm\handler\src\main\java\by\flex\pojos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -362,9 +556,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.16151468" />
+    <option name="contentProportion" value="0.27047914" />
   </component>
-  <component name="RunManager" selected="Spring Boot.RestApp">
+  <component name="RunManager" selected="Spring Boot.DashApp">
     <configuration name="HandlerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.flex.HandlerApp" />
       <module name="handler" />
@@ -381,6 +575,20 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="fullfarm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.flex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.flex.DashApp" />
+      <option name="URL_PATH" value="welcome" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -413,8 +621,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RestApp" />
+        <item itemvalue="Spring Boot.DashApp" />
         <item itemvalue="Spring Boot.HandlerApp" />
+        <item itemvalue="Spring Boot.RestApp" />
         <item itemvalue="Application.HandlerApp" />
         <item itemvalue="Application.Main" />
       </list>
@@ -440,12 +649,15 @@
       <workItem from="1571758282828" duration="10738000" />
       <workItem from="1571807241239" duration="3357000" />
       <workItem from="1571848450535" duration="9809000" />
-      <workItem from="1571895381656" duration="17991000" />
+      <workItem from="1571895381656" duration="19514000" />
+      <workItem from="1571931347686" duration="1836000" />
+      <workItem from="1571936623672" duration="2310000" />
+      <workItem from="1571981326131" duration="14799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58396000" />
+    <option name="totallyTimeSpent" value="78864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,9 +670,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -471,25 +682,25 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3666121" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3666121" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Dependency Viewer" order="7" weight="0.57610476" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.09328969" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35188216" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.12111293" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3666121" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49924356" weight="0.3535188" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.9054463" weight="0.36006546" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.9054463" visible="true" weight="0.23240589" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.14220877" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.13086233" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -503,284 +714,254 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash/LampDto.java">
+    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/MultipleMongoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="-220">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash/PumpDto.java">
+    <entry file="file://$PROJECT_DIR$/handler/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="32">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/PumpSensors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/LampSensors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/HeaterSensors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/FlowerSensors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/FilterSensors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/sensors/DispenserSensors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Pump.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Lamp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Heater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Flower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/rest/devices/Dispenser.java">
+    <entry file="file://$PROJECT_DIR$/handler/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash/DispenserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/pojos/dash/FlowerDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/repositories/dash/FilterRepositoryDash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/HeaterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/LampController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/WEB-INF/jsp/devicesList.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/DispenserDto.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/WEB-INF/jsp/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.8.RELEASE/spring-boot-autoconfigure-2.1.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="442" column="44" selection-start-line="442" selection-start-column="44" selection-end-line="442" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/WelcomePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/FilterDto.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="-924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/HandlerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/FlowerDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/WEB-INF/jsp/error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/HeaterDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/LampDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/PumpDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Dispenser.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/security/SecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Filter.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/security/SecurityInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="102">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/pojo/AppRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/list/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/user/UserRegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/repositories/AppRoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/repositories/AppUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/devicesList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/MongoProp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Flower.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/MongoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="264">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Heater.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/mongo.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="282" column="12" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/hibernate.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="90" selection-start-column="90" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Lamp.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/devicesList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="22">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Pump.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/services/javax.servlet.ServletContainerInitializer">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/DispenserSensors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="235">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/FilterSensors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/FlowerSensors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="259">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/HeaterSensors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="220">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -793,111 +974,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/sensors/PumpSensors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="220">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/FilterRepository.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/WebMvcInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/MultipleMongoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/DispenserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/LampService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/PumpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/FilterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/FlowerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="351">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/HeaterService.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.8.RELEASE/spring-boot-dependencies-2.1.8.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="146">
+          <caret line="527" column="6" selection-start-line="527" selection-start-column="6" selection-end-line="527" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/DispenserController.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        <state relative-caret-position="87">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/FilterController.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/vvv.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/ListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/FlowerController.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/DashApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        <state relative-caret-position="140">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/PumpController.java">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/WebMvcConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="-61">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/MainPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
