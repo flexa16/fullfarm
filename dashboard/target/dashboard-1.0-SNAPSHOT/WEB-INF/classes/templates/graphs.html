@@ -2,14 +2,13 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <div th:insert ="header"/>
 <script th:inline="javascript">
-
     window.onload = function () {
 
         var chart = new CanvasJS.Chart("chartContainer", {
             animationEnabled: true,
             exportEnabled: true,
             title:{
-                text: "Dispenser sensors"
+                text: "Sensors"
             },
             axisY:{
                 title: "Value"
@@ -42,40 +41,33 @@
         }
 
     }
-
 </script>
 
 
 <div id="chartContainer" style="height: 300px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-
-<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+<div class="btn-toolbar justify-content-between col-md-6" role="toolbar" aria-label="Toolbar with button groups">
     <div class="btn-group" role="group" aria-label="First group">
-        <button type="button" class="btn btn-secondary"  name="dispenser" th:text="${param.q}">Dispenser</button>
-        <button type="button" class="btn btn-secondary">Filter</button>
-        <button type="button" class="btn btn-secondary">Heater</button>
-        <button type="button" class="btn btn-secondary">Lamp</button>
-        <button type="button" class="btn btn-secondary">Pump</button>
-    </div>
-    <div class="input-group">
-        <div class="input-group-prepend">
-            <div class="input-group-text" id="btnGroupAddon2">Last entities</div>
-        </div>
-        <input type="number" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
-    </div>
-</div>
 <form th:action="@{/graphs}">
-    <button type="submit" th:name="chart" th:value="dispenser">check-in</button>
-    <button type="submit" th:name="chart" th:value="out">check-out</button>
+    <button type="submit" class="btn btn-secondary" th:name="chart" th:value="dispenser">Dispenser</button>
+    <button type="submit" class="btn btn-secondary" th:name="chart" th:value="filter">Filter</button>
+    <button type="submit" class="btn btn-secondary" th:name="chart" th:value="flower">Flower</button>
+    <button type="submit" class="btn btn-secondary" th:name="chart" th:value="heater">Heater</button>
+    <button type="submit" class="btn btn-secondary" th:name="chart" th:value="lamp">Lamp</button>
+    <button type="submit" class="btn btn-secondary" th:name="chart" th:value="pump">Pump</button>
+
 </form>
-<form class="form-inline" th:action="@{/graphs}">
-    <div class="form-group mx-sm-3 mb-2">
-        <label for="inputPassword2" class="sr-only">
-            Number of last values</label>
-        <input type="number" class="form-control" id="inputPassword2" placeholder="Password">
+</div>
+</div>
+<br>
+<form method="POST">
+    <div class="form-group col-md-4">
+    <input type="number" class="form-control" name="num" placeholder="Number of last results">
+        <br>
+    <input type="submit" class="btn btn-secondary">
     </div>
-    <button type="submit" class="btn btn-primary mb-2" th:name="nums" >Apply</button>
 </form>
+
 
 </body>
 </html>
