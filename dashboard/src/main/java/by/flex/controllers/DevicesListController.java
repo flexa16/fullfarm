@@ -1,6 +1,6 @@
 package by.flex.controllers;
 
-import by.flex.repo.DispenserRepositoryDto;
+import by.flex.services.servicesd.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,11 +12,31 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class DevicesListController {
 
     @Autowired
-    DispenserRepositoryDto dispenserRepositoryDto;
+    DispenserServiceDashboard dispenserServiceDashboard;
+
+    @Autowired
+    FilterServiceDashboard filterServiceDashboard;
+
+    @Autowired
+    FlowerServiceDashboard flowerServiceDashboard;
+
+    @Autowired
+    HeaterServiceDashboard heaterServiceDashboard;
+
+    @Autowired
+    LampServiceDashboard lampServiceDashboard;
+
+    @Autowired
+    PumpServiceDashboard pumpServiceDashboard;
 
     @RequestMapping(method = RequestMethod.GET)
-    public String devicesList() {
-        System.out.println(dispenserRepositoryDto.findAll());
+    public String devicesList(Model model) {
+        model.addAttribute("dispenser",dispenserServiceDashboard.getTenResults());
+        model.addAttribute("filter",filterServiceDashboard.getTenResults());
+        model.addAttribute("flower",flowerServiceDashboard.getTenResults());
+        model.addAttribute("heater",heaterServiceDashboard.getTenResults());
+        model.addAttribute("lamp",lampServiceDashboard.getTenResults());
+        model.addAttribute("pump",pumpServiceDashboard.getTenResults());
         return "devices-list";
     }
 

@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -28,6 +30,14 @@ public class DispenserServiceDashboard {
         return list;
     }
 
+    public List<DispenserDto> getTenResults(){
+        List<DispenserDto> data = new ArrayList<>();
+        for (long i = dispenserRepositoryDto.count(); i > dispenserRepositoryDto.count()-10; i--) {
+            data.add(dispenserRepositoryDto.findById(i).orElseThrow());
+        }
+        Collections.reverse(data);
+        return data;
+    }
 
 
 }

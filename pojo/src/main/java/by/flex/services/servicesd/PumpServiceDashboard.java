@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -25,5 +26,14 @@ public class PumpServiceDashboard {
             list.add(pumpRepositoryDto.findById(i).orElseThrow());
         }
         return list;
+    }
+
+    public List<PumpDto> getTenResults(){
+        List<PumpDto> data = new ArrayList<>();
+        for (long i = pumpRepositoryDto.count(); i > pumpRepositoryDto.count()-10; i--) {
+            data.add(pumpRepositoryDto.findById(i).orElseThrow());
+        }
+        Collections.reverse(data);
+        return data;
     }
 }

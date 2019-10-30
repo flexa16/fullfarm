@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -25,5 +26,14 @@ public class HeaterServiceDashboard {
             list.add(heaterRepositoryDto.findById(i).orElseThrow());
         }
         return list;
+    }
+
+    public List<HeaterDto> getTenResults(){
+        List<HeaterDto> data = new ArrayList<>();
+        for (long i = heaterRepositoryDto.count(); i > heaterRepositoryDto.count()-10; i--) {
+            data.add(heaterRepositoryDto.findById(i).orElseThrow());
+        }
+        Collections.reverse(data);
+        return data;
     }
 }

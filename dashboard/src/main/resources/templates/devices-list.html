@@ -2,51 +2,177 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <div th:insert ="header"/>
 
-<div class="row">
-    <div class="col-3">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active" id="dispenser" data-toggle="pill" href="#v-pills-dispenser" role="tab"
-               aria-controls="v-pills-dispenser" aria-selected="true">Dispensers</a>
-            <a class="nav-link" id="filter" data-toggle="pill" href="#v-pills-filter" role="tab"
-               aria-controls="v-pills-filter" aria-selected="false">Filters</a>
-            <a class="nav-link" id="flower-sensor" data-toggle="pill" href="#v-pills-flower-sensor" role="tab"
-               aria-controls="v-pills-flower-sensor" aria-selected="false">Flower sensors</a>
-            <a class="nav-link" id="heater" data-toggle="pill" href="#v-pills-heater" role="tab"
-               aria-controls="v-pills-heater" aria-selected="false">Heaters</a>
-            <a class="nav-link" id="lamp" data-toggle="pill" href="#v-pills-lamp" role="tab"
-               aria-controls="v-pills-lamp" aria-selected="false">Lamps</a>
-            <a class="nav-link" id="pump" data-toggle="pill" href="#v-pills-pump" role="tab"
-               aria-controls="v-pills-pump" aria-selected="false">Pumps</a>
-        </div>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="dispenser-tab" data-toggle="tab" href="#dispenser" role="tab" aria-controls="dispenser" aria-selected="true">Dispenser</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" id="filter-tab" data-toggle="tab" href="#filter" role="tab" aria-controls="filter" aria-selected="false">Filter</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" id="flower-tab" data-toggle="tab" href="#flower" role="tab" aria-controls="flower" aria-selected="false">Flower</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" id="heater-tab" data-toggle="tab" href="#heater" role="tab" aria-controls="heater" aria-selected="false">Heater</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" id="lamp-tab" data-toggle="tab" href="#lamp" role="tab" aria-controls="lamp" aria-selected="false">Lamp</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" id="pump-tab" data-toggle="tab" href="#pump" role="tab" aria-controls="pump" aria-selected="false">Pump</a>
+    </li>
+</ul>
+<div class="tab-content " id="myTabContent">
+    <div class="tab-pane fade show active " id="dispenser" role="tabpanel" aria-labelledby="dispenser-tab">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Valves Count</th>
+                <th scope="col">To Valves</th>
+                <th scope="col">Power Usage</th>
+                <th scope="col">Water Usage</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="dis,state : ${dispenser}">
+                <th scope="row" th:utext="${state.count}"></th>
+                <td th:utext="${dispenser.get(state.index).getId()}"></td>
+                <td th:utext="${dispenser.get(state.index).getName()}"></td>
+                <td th:utext="${dispenser.get(state.index).getValvesCount()}"></td>
+                <td th:utext="${dispenser.get(state.index).getToValves()}"></td>
+                <td th:utext="${dispenser.get(state.index).getPowerUsage()}"></td>
+                <td th:utext="${dispenser.get(state.index).getWaterUsage()}"></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
-    <div class="col-9">
-
-        <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-dispenser" role="tabpanel"
-                 aria-labelledby="v-pills-home-tab">
-
-            </div>
-            <div class="tab-pane fade" id="v-pills-filter" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-
-            </div>
-            <div class="tab-pane fade" id="v-pills-flower-sensor" role="tabpanel"
-                 aria-labelledby="v-pills-messages-tab">
-
-            </div>
-            <div class="tab-pane fade" id="v-pills-heater" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-
-            </div>
-
-
-
-            </c:forEach>
-        </div>
-        <div class="tab-pane fade" id="v-pills-pump" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-
-        </div>
+    <div class="tab-pane fade" id="filter" role="tabpanel" aria-labelledby="filter-tab">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Capacity</th>
+                <th scope="col">Filter Health</th>
+                <th scope="col">Power Usage</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="fil,state : ${filter}">
+                <th scope="row" th:utext="${state.count}"></th>
+                <td th:utext="${filter.get(state.index).getId()}"></td>
+                <td th:utext="${filter.get(state.index).getName()}"></td>
+                <td th:utext="${filter.get(state.index).getCapacity()}"></td>
+                <td th:utext="${filter.get(state.index).getFilterHealth()}"></td>
+                <td th:utext="${filter.get(state.index).getPowerUsage()}"></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
+    <div class="tab-pane fade" id="flower" role="tabpanel" aria-labelledby="flower-tab">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Position</th>
+                <th scope="col">Luxometer</th>
+                <th scope="col">Moisturemeter</th>
+                <th scope="col">Thermometer</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="flo,state : ${flower}">
+                <th scope="row" th:utext="${state.count}"></th>
+                <td th:utext="${flower.get(state.index).getId()}"></td>
+                <td th:utext="${flower.get(state.index).getName()}"></td>
+                <td th:utext="${flower.get(state.index).getPosition()}"></td>
+                <td th:utext="${flower.get(state.index).getLuxometer()}"></td>
+                <td th:utext="${flower.get(state.index).getMoistureMeter()}"></td>
+                <td th:utext="${flower.get(state.index).getThermometer()}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="tab-pane fade" id="heater" role="tabpanel" aria-labelledby="heater-tab">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Position</th>
+                <th scope="col">Power Usage</th>
+                <th scope="col">Fun Speed</th>
+                <th scope="col">Temperature</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="hea ,state : ${heater}">
+                <th scope="row" th:utext="${state.count}"></th>
+                <td th:utext="${heater.get(state.index).getId()}"></td>
+                <td th:utext="${heater.get(state.index).getName()}"></td>
+                <td th:utext="${heater.get(state.index).getPosition()}"></td>
+                <td th:utext="${heater.get(state.index).getPowerUsage()}"></td>
+                <td th:utext="${heater.get(state.index).getFunSpeed()}"></td>
+                <td th:utext="${heater.get(state.index).getTemperature()}"></td>
 
-</div>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="tab-pane fade" id="lamp" role="tabpanel" aria-labelledby="lamp-tab">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Power Usage</th>
+                <th scope="col">Brightness</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="lam ,state : ${lamp}">
+                <th scope="row" th:utext="${state.count}"></th>
+                <td th:utext="${lamp.get(state.index).getId()}"></td>
+                <td th:utext="${lamp.get(state.index).getName()}"></td>
+                <td th:utext="${lamp.get(state.index).getPowerUsage()}"></td>
+                <td th:utext="${lamp.get(state.index).getBrightness()}"></td>
+
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="tab-pane fade" id="pump" role="tabpanel" aria-labelledby="pump-tab">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Position</th>
+                <th scope="col">Power Usage</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="pum ,state : ${pump}">
+                <th scope="row" th:utext="${state.count}"></th>
+                <td th:utext="${pump.get(state.index).getId()}"></td>
+                <td th:utext="${pump.get(state.index).getName()}"></td>
+                <td th:utext="${pump.get(state.index).getPosition()}"></td>
+                <td th:utext="${pump.get(state.index).getPowerUsage()}"></td>
+
+            </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <div th:insert ="footer"/>

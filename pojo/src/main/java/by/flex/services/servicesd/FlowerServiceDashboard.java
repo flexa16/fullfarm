@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -25,6 +26,15 @@ public class FlowerServiceDashboard {
             list.add(flowerRepositoryDto.findById(i).orElseThrow());
         }
         return list;
+    }
+
+    public List<FlowerDto> getTenResults(){
+        List<FlowerDto> data = new ArrayList<>();
+        for (long i = flowerRepositoryDto.count(); i > flowerRepositoryDto.count()-10; i--) {
+            data.add(flowerRepositoryDto.findById(i).orElseThrow());
+        }
+        Collections.reverse(data);
+        return data;
     }
     
 }

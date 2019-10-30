@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -24,5 +25,14 @@ public class FilterServiceDashboard {
             list.add(filterRepositoryDto.findById(i).orElseThrow());
         }
         return list;
+    }
+
+    public List<FilterDto> getTenResults(){
+        List<FilterDto> data = new ArrayList<>();
+        for (long i = filterRepositoryDto.count(); i > filterRepositoryDto.count()-10; i--) {
+            data.add(filterRepositoryDto.findById(i).orElseThrow());
+        }
+        Collections.reverse(data);
+        return data;
     }
 }

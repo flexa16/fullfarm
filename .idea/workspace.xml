@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f7dd543-fdd3-4625-9546-a3f56634e5fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FilterServiceDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FlowerServiceDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/HeaterServiceDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/LampServiceDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/PumpServiceDashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/utils/GraphUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/utils/GraphUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/DevicesListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/DevicesListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/resources/templates/devices-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/resources/templates/devices-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/DispenserServiceDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/DispenserServiceDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FilterServiceDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FilterServiceDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FlowerServiceDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FlowerServiceDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/HeaterServiceDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/HeaterServiceDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/LampServiceDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/LampServiceDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/PumpServiceDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/PumpServiceDashboard.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,29 +29,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/utils/GraphUtils.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/graphs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state>
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#dispenserDataList#0;class#GraphUtils#0" />
-                <element signature="method#filterDataList#0;class#GraphUtils#0" />
-                <element signature="method#filterDataList#1;class#GraphUtils#0" />
-                <element signature="method#flowerDataList#1;class#GraphUtils#0" />
-                <element signature="method#heaterDataList#1;class#GraphUtils#0" />
-                <element signature="method#dataString#0;class#GraphUtils#0" />
+                <element signature="n#script#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#html#0;n#!!top" />
+                <element signature="n#form#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/DevicesListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="-3">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,25 +57,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java">
+        <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/RestApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="69" column="41" lean-forward="true" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/PumpDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
+            <state relative-caret-position="132">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/registration.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/devicesList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="10" selection-start-line="10" selection-end-line="82" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/DispenserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Dispenser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -98,25 +130,28 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>nameofdatabase</find>
-      <find>Dispenser</find>
       <find>Dispense</find>
+      <find>Dispenser</find>
+      <find>Filter</find>
       <find>Flower</find>
       <find>Heater</find>
       <find>Lamp</find>
+      <find>contact</find>
     </findStrings>
     <replaceStrings>
       <replace>dash</replace>
       <replace>rest</replace>
       <replace>filter</replace>
-      <replace>flower</replace>
-      <replace>heater</replace>
-      <replace>lamp</replace>
-      <replace>pump</replace>
       <replace>Filter</replace>
       <replace>Flower</replace>
       <replace>Heater</replace>
       <replace>Lamp</replace>
       <replace>Pump</replace>
+      <replace>dispenser</replace>
+      <replace>flower</replace>
+      <replace>heater</replace>
+      <replace>lamp</replace>
+      <replace>pump</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -138,7 +173,6 @@
         <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/ListController.java" />
         <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/MainPageController.java" />
         <option value="$PROJECT_DIR$/dashboard/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/dashboard/src/main/resources/templates/devices-list.html" />
         <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/DashApp.java" />
         <option value="$PROJECT_DIR$/dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/handler/src/main/resources/application.properties" />
@@ -148,7 +182,6 @@
         <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/MongoConfiguration.java" />
         <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/MongoProperties.java" />
         <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/PrimaryMongoProperties.java" />
-        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/DevicesListController.java" />
         <option value="$PROJECT_DIR$/dashboard/src/main/resources/templates/welcome.html" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/DispenserDto.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/dto/FilterDto.java" />
@@ -167,15 +200,17 @@
         <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/WebMvcConfiguration.java" />
         <option value="$PROJECT_DIR$/dashboard/src/main/resources/templates/header.html" />
         <option value="$PROJECT_DIR$/dashboard/src/main/resources/templates/graphs.html" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/HeaterRepositoryDashboard.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/utils/GraphUtils.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/DispenserServiceDashboard.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FilterServiceDashboard.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FlowerServiceDashboard.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/DispenserServiceDashboard.java" />
-        <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/HeaterRepositoryDashboard.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/HeaterServiceDashboard.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/LampServiceDashboard.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/PumpServiceDashboard.java" />
-        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/utils/GraphUtils.java" />
-        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/DevicesListController.java" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/resources/templates/devices-list.html" />
       </list>
     </option>
   </component>
@@ -189,6 +224,10 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="fullfarm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -207,8 +246,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="233" />
+    <option name="y" value="346" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -284,17 +323,6 @@
               <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="flex" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="by" type="462c0819:PsiDirectoryNode" />
-              <item name="flex" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
@@ -484,17 +512,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="flex" type="462c0819:PsiDirectoryNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="by" type="462c0819:PsiDirectoryNode" />
-              <item name="flex" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -553,6 +570,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="flex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="flex" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
@@ -755,7 +783,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/farm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -865,8 +893,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DashApp" />
-        <item itemvalue="Spring Boot.RestApp" />
         <item itemvalue="Spring Boot.HandlerApp" />
+        <item itemvalue="Spring Boot.RestApp" />
         <item itemvalue="Application.HandlerApp" />
         <item itemvalue="Application.Main" />
       </list>
@@ -902,12 +930,12 @@
       <workItem from="1572327115396" duration="15463000" />
       <workItem from="1572369739054" duration="7928000" />
       <workItem from="1572412394188" duration="12239000" />
-      <workItem from="1572450683268" duration="4228000" />
+      <workItem from="1572450683268" duration="15718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142222000" />
+    <option name="totallyTimeSpent" value="153712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -920,9 +948,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34266263" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.022692889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -933,7 +960,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.17184943" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.23240589" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -947,11 +974,11 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49924356" weight="0.3535188" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.64220876" visible="true" weight="0.5008183" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.64220876" visible="true" weight="0.17021276" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.06656581" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.100605145" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -965,36 +992,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/repositories/AppRoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/utils/GraphUtil.java" />
     <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/PrimaryMongoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1019,13 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/RestApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1068,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/devices-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/welcome.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1106,16 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/graphs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/charts/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1130,24 +1103,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21758">
           <caret line="1055" selection-start-line="1055" selection-end-line="1055" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -1221,13 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/DispenserRepositoryDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1235,70 +1187,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FlowerServiceDashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/HeaterServiceDashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/LampServiceDashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/PumpServiceDashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/FilterRepositoryDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FilterServiceDashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/DispenserServiceDashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1336,38 +1228,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/DevicesListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="69" column="41" lean-forward="true" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/utils/GraphUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#dispenserDataList#0;class#GraphUtils#0" />
             <element signature="method#filterDataList#0;class#GraphUtils#0" />
             <element signature="method#filterDataList#1;class#GraphUtils#0" />
             <element signature="method#flowerDataList#1;class#GraphUtils#0" />
             <element signature="method#heaterDataList#1;class#GraphUtils#0" />
+            <element signature="method#pumpDataList#0;class#GraphUtils#0" />
             <element signature="method#dataString#0;class#GraphUtils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/DispenserRepositoryDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/DispenserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/DispenserServiceDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="32" selection-start-line="32" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getEntity#0;class#DispenserServiceDashboard#0" />
+            <element signature="method#getTenResults#0;class#DispenserServiceDashboard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/HeaterServiceDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/LampServiceDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/PumpServiceDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getEntity#0;class#PumpServiceDashboard#0" />
+            <element signature="method#getTenResults#0;class#PumpServiceDashboard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FilterServiceDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getEntity#0;class#FilterServiceDashboard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/services/servicesd/FlowerServiceDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getEntity#0;class#FlowerServiceDashboard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/DispenserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Dispenser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/webapp/WEB-INF/jsp/devicesList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="10" selection-start-line="10" selection-end-line="82" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/RestApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/graphs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="n#script#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/devices-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#1;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#1;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/DevicesListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
