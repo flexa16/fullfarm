@@ -34,12 +34,17 @@ public class HandlerApp implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         while (true) {
+            System.out.println("script start");
+            System.out.println("wait 5 sec");
+            Thread.sleep(5000);
+            System.out.println("wait over");
             dispenserService.copy();
             filterService.copy();
             flowerService.copy();
             heaterService.copy();
             lampService.copy();
             pumpService.copy();
+            System.out.println("fin");
         }
     }
 }

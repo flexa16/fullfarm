@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:insert ="header"/>
+
+<div class="row">
+    <div class="col-3">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="dispenser" data-toggle="pill" href="#v-pills-dispenser" role="tab"
+               aria-controls="v-pills-dispenser" aria-selected="true">Dispensers</a>
+            <a class="nav-link" id="filter" data-toggle="pill" href="#v-pills-filter" role="tab"
+               aria-controls="v-pills-filter" aria-selected="false">Filters</a>
+            <a class="nav-link" id="flower-sensor" data-toggle="pill" href="#v-pills-flower-sensor" role="tab"
+               aria-controls="v-pills-flower-sensor" aria-selected="false">Flower sensors</a>
+            <a class="nav-link" id="heater" data-toggle="pill" href="#v-pills-heater" role="tab"
+               aria-controls="v-pills-heater" aria-selected="false">Heaters</a>
+            <a class="nav-link" id="lamp" data-toggle="pill" href="#v-pills-lamp" role="tab"
+               aria-controls="v-pills-lamp" aria-selected="false">Lamps</a>
+            <a class="nav-link" id="pump" data-toggle="pill" href="#v-pills-pump" role="tab"
+               aria-controls="v-pills-pump" aria-selected="false">Pumps</a>
+        </div>
+    </div>
+    <div class="col-9">
+
+        <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-dispenser" role="tabpanel"
+                 aria-labelledby="v-pills-home-tab">
+
+            </div>
+            <div class="tab-pane fade" id="v-pills-filter" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+            </div>
+            <div class="tab-pane fade" id="v-pills-flower-sensor" role="tabpanel"
+                 aria-labelledby="v-pills-messages-tab">
+
+            </div>
+            <div class="tab-pane fade" id="v-pills-heater" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+            </div>
+
+
+
+            </c:forEach>
+        </div>
+        <div class="tab-pane fade" id="v-pills-pump" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div th:insert ="footer"/>
+
+</html>

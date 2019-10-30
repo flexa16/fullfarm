@@ -3,6 +3,7 @@ C:\fullfarm\pojo\src\main\java\by\flex\dto\DispenserDto.java
 C:\fullfarm\pojo\src\main\java\by\flex\dto\HeaterDto.java
 C:\fullfarm\pojo\src\main\java\by\flex\services\HeaterService.java
 C:\fullfarm\pojo\src\main\java\by\flex\pojoss\sensors\HeaterSensors.java
+C:\fullfarm\pojo\src\main\java\by\flex\services\servicesd\DispenserServiceDashboard.java
 C:\fullfarm\pojo\src\main\java\by\flex\services\DispenserService.java
 C:\fullfarm\pojo\src\main\java\by\flex\services\LampService.java
 C:\fullfarm\pojo\src\main\java\by\flex\repo\FilterRepositoryDto.java

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:insert ="header"/>
+<script th:inline="javascript">
+
+    window.onload = function () {
+
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            exportEnabled: true,
+            title:{
+                text: "Dispenser sensors"
+            },
+            axisY:{
+                title: "Value"
+            },
+            toolTip: {
+                shared: true
+            },
+            legend:{
+                cursor:"pointer",
+                itemclick: toggleDataSeries
+            },
+            data: [
+
+
+                [(${values})]
+
+            ]
+        });
+
+        chart.render();
+
+        function toggleDataSeries(e) {
+            if(typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                e.dataSeries.visible = false;
+            }
+            else {
+                e.dataSeries.visible = true;
+            }
+            chart.render();
+        }
+
+    }
+
+</script>
+
+
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group" role="group" aria-label="First group">
+        <button type="button" class="btn btn-secondary"  name="dispenser" th:text="${param.q}">Dispenser</button>
+        <button type="button" class="btn btn-secondary">Filter</button>
+        <button type="button" class="btn btn-secondary">Heater</button>
+        <button type="button" class="btn btn-secondary">Lamp</button>
+        <button type="button" class="btn btn-secondary">Pump</button>
+    </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon2">Last entities</div>
+        </div>
+        <input type="number" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+    </div>
+</div>
+<form th:action="@{/graphs}">
+    <button type="submit" th:name="chart" th:value="dispenser">check-in</button>
+    <button type="submit" th:name="chart" th:value="out">check-out</button>
+</form>
+<form class="form-inline" th:action="@{/graphs}">
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="inputPassword2" class="sr-only">
+            Number of last values</label>
+        <input type="number" class="form-control" id="inputPassword2" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2" th:name="nums" >Apply</button>
+</form>
+
+</body>
+</html>

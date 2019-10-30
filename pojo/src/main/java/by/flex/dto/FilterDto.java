@@ -2,9 +2,10 @@ package by.flex.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@AllArgsConstructor
+@Document(collection = "filters")
 public class FilterDto {
 
     private long id;

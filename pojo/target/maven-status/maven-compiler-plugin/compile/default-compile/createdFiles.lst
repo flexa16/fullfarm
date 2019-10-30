@@ -11,6 +11,7 @@ by\flex\services\FlowerService.class
 by\flex\dto\HeaterDto.class
 by\flex\pojoss\devices\Heater.class
 by\flex\services\DispenserService.class
+by\flex\services\servicesd\DispenserServiceDashboard.class
 by\flex\services\PumpService.class
 by\flex\pojoss\devices\Pump.class
 by\flex\dto\PumpDto.class

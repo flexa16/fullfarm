@@ -1,10 +1,14 @@
-by\flex\list\ListController.class
 by\flex\pojo\AppUser.class
-by\flex\WebMvcInitializer.class
+by\flex\MongoConfiguration.class
 by\flex\DashApp.class
 by\flex\WebMvcConfiguration.class
 by\flex\repositories\AppRoleRepository.class
 by\flex\pojo\RoleName.class
+by\flex\utils\GraphUtils.class
+by\flex\PrimaryMongoConfig.class
+by\flex\PrimaryMongoProperties.class
 by\flex\controllers\MainPageController.class
 by\flex\pojo\AppRole.class
 by\flex\repositories\AppUserRepository.class
+by\flex\controllers\DevicesListController.class
+by\flex\controllers\GraphController.class
