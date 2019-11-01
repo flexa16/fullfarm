@@ -1,9 +1,0 @@
-spring:
-  autoconfigure:
-    exclude: org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration
-mongodb:
-  primary:
-    host: localhost
-    port: 27087
-    database: farm
-
