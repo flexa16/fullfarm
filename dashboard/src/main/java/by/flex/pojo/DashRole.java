@@ -1,7 +1,6 @@
 package by.flex.pojo;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,7 +10,8 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Role {
+@Table(name = "role")
+public class DashRole {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "role_id")
@@ -20,7 +20,7 @@ public class Role {
     private String role;
 
 
-    public Role(String role) {
+    public DashRole(String role) {
         this.role = role;
     }
 }

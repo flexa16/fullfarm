@@ -1,7 +1,7 @@
 package by.flex.controllers;
 
 import by.flex.services.servicesd.*;
-import by.flex.utils.GraphUtils;
+import by.flex.service.GraphService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -30,7 +30,7 @@ public class GraphController {
     PumpServiceDashboard pumpServiceDashboard;
 
     @Autowired
-    GraphUtils graphUtils;
+    GraphService graphService;
 
 
     @RequestMapping()
@@ -43,33 +43,33 @@ public class GraphController {
             count=10;
         }
         if("dispenser".equals(chart)){
-            model.addAttribute("values",graphUtils.dataString(
-                    graphUtils.dispenserDataList(
+            model.addAttribute("values", graphService.dataString(
+                    graphService.dispenserDataList(
                             dispenserServiceDashboard.getEntity(count))
             ));
         } else if("filter".equals(chart)) {
-            model.addAttribute("values", graphUtils.dataString(
-                    graphUtils.filterDataList(
+            model.addAttribute("values", graphService.dataString(
+                    graphService.filterDataList(
                             filterServiceDashboard.getEntity(count))
             ));
         } else if("flower".equals(chart)) {
-            model.addAttribute("values", graphUtils.dataString(
-                    graphUtils.flowerDataList(
+            model.addAttribute("values", graphService.dataString(
+                    graphService.flowerDataList(
                             flowerServiceDashboard.getEntity(count))
             ));
         } else if("heater".equals(chart)) {
-            model.addAttribute("values", graphUtils.dataString(
-                    graphUtils.heaterDataList(
+            model.addAttribute("values", graphService.dataString(
+                    graphService.heaterDataList(
                             heaterServiceDashboard.getEntity(count))
             ));
         } else if("lamp".equals(chart)) {
-            model.addAttribute("values", graphUtils.dataString(
-                    graphUtils.lampDataList(
+            model.addAttribute("values", graphService.dataString(
+                    graphService.lampDataList(
                             lampServiceDashboard.getEntity(count))
             ));
         } else if("pump".equals(chart)) {
-            model.addAttribute("values", graphUtils.dataString(
-                    graphUtils.pumpDataList(
+            model.addAttribute("values", graphService.dataString(
+                    graphService.pumpDataList(
                             pumpServiceDashboard.getEntity(count))
             ));
         }

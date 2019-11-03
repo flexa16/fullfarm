@@ -1,11 +1,10 @@
 package by.flex.repository;
 
-import by.flex.pojo.Role;
-import org.springframework.data.jpa.repository.JpaRepository;
+import by.flex.pojo.DashRole;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface RoleRepository extends CrudRepository< Role, Long> {
+public interface RoleRepository extends CrudRepository< DashRole, Long> {
 
 }

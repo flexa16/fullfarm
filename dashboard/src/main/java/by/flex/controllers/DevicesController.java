@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/devices-list")
-public class DevicesListController {
+@RequestMapping("/devices")
+public class DevicesController {
 
     @Autowired
     DispenserServiceDashboard dispenserServiceDashboard;
@@ -37,7 +37,7 @@ public class DevicesListController {
         model.addAttribute("heater",heaterServiceDashboard.getTenResults());
         model.addAttribute("lamp",lampServiceDashboard.getTenResults());
         model.addAttribute("pump",pumpServiceDashboard.getTenResults());
-        return "devices-list";
+        return "devices";
     }
 
 }

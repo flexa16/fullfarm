@@ -1,4 +1,4 @@
-package by.flex.utils;
+package by.flex.service;
 
 import by.flex.dto.*;
 import org.springframework.stereotype.Component;
@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 
 @Component
-public class GraphUtils {
+public class GraphService {
 
 
     public List<String> dispenserDataList(List<DispenserDto> list){
