@@ -1,4 +1,4 @@
-package by.flex;
+package by.flex.mongo;
 
 import lombok.Data;
 import org.springframework.boot.autoconfigure.mongo.MongoProperties;

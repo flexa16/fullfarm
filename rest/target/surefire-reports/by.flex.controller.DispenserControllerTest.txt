@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: by.flex.controller.DispenserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.511 s - in by.flex.controller.DispenserControllerTest

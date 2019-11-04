@@ -1,4 +1,4 @@
-package by.flex;
+package by.flex.mongo;
 
 import com.mongodb.MongoClient;
 import lombok.RequiredArgsConstructor;

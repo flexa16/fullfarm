@@ -72,6 +72,11 @@ public class GraphController {
                     graphService.pumpDataList(
                             pumpServiceDashboard.getEntity(count))
             ));
+        }else {
+            model.addAttribute("values", graphService.dataString(
+                    graphService.dispenserDataList(
+                            dispenserServiceDashboard.getEntity(count))
+            ));
         }
         return "graphs";
     }
