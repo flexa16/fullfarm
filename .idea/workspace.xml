@@ -2,50 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f7dd543-fdd3-4625-9546-a3f56634e5fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard/src/test/java/by/flex/controllers/DevicesControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest/src/test/java/by/flex/controller/DispenserControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/DashApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/DashApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/MongoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/mongo/MongoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/PrimaryMongoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/mongo/PrimaryMongoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/PrimaryMongoProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/mongo/PrimaryMongoProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/WebMvcConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/AccessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/AccessController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/LogoutController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/security/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/java/by/flex/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main/resources/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/DashApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/classes/by/flex/DashApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/MongoConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/PrimaryMongoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/PrimaryMongoProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/WebMvcConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/controllers/AccessController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/classes/by/flex/controllers/AccessController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/classes/by/flex/controllers/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/controllers/GraphController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/classes/by/flex/controllers/GraphController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/controllers/LogoutController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/security/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/classes/by/flex/security/SecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/by/flex/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/classes/by/flex/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/classes/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/classes/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/dashboard-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/surefire-reports/TEST-by.flex.controllers.DevicesControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/surefire-reports/TEST-by.flex.controllers.DevicesControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/target/surefire-reports/by.flex.controllers.DevicesControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/target/surefire-reports/by.flex.controllers.DevicesControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/src/main/java/by/flex/HandlerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/handler/src/main/java/by/flex/HandlerApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handler/target/handler-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/handler/target/handler-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Dispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Dispenser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/DispenserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/DispenserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/devices/Dispenser.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/by/flex/pojoss/devices/Dispenser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/by/flex/repo/DispenserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/by/flex/repo/DispenserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/target/test-classes/META-INF/handler.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pojo/target/pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/test/java/by/flex/controller/DispenserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/test/java/by/flex/controller/DispenserControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/surefire-reports/TEST-by.flex.controller.DispenserControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/surefire-reports/TEST-by.flex.controller.DispenserControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/surefire-reports/by.flex.controller.DispenserControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/surefire-reports/by.flex.controller.DispenserControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/test-classes/by/flex/controller/DispenserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/test-classes/by/flex/controller/DispenserControllerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,21 +37,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rest/src/test/java/by/flex/controller/DispenserControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="128">
+              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fullfarm.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/DashApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="87">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,34 +59,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/AdminController.java">
+        <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/RestApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/HandlerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/DevicesController.java">
+        <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/DispenserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/src/test/java/by/flex/controllers/DevicesControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+            <state relative-caret-position="223">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
+            <state relative-caret-position="1540">
               <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="77" selection-end-column="71" />
             </state>
           </provider>
@@ -143,16 +111,12 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/devices.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1782" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/graphs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-990" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -251,12 +215,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Dispenser.java" />
         <option value="$PROJECT_DIR$/pojo/src/main/java/by/flex/repo/DispenserRepository.java" />
-        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/HandlerApp.java" />
         <option value="$PROJECT_DIR$/handler/src/test/java/by/flex/HandlerAppTest.java" />
         <option value="$PROJECT_DIR$/handler/src/test/java/by/flex/mongo_service/DispenserServiceTest.java" />
         <option value="$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java" />
         <option value="$PROJECT_DIR$/dashboard/src/test/java/by/flex/controllers/DevicesControllerTest.java" />
         <option value="$PROJECT_DIR$/rest/src/test/java/by/flex/controller/DispenserControllerTest.java" />
+        <option value="$PROJECT_DIR$/handler/src/main/java/by/flex/HandlerApp.java" />
       </list>
     </option>
   </component>
@@ -284,10 +248,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-6" />
+    <option name="y" value="1" />
+    <option name="width" value="1292" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -298,6 +262,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,13 +272,57 @@
             </path>
             <path>
               <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfarm" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="flex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfarm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,7 +337,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/JD2-58-19/lesson20/hellowebmvc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -344,6 +353,16 @@
       <recent name="by.flex" />
       <recent name="by.flex.controller" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\fullfarm\dashboard\src\main\resources\keystore" />
+      <recent name="C:\fullfarm\dashboard\src\main\resources" />
+      <recent name="C:\fullfarm\dashboard\src\main\resources\templates" />
+      <recent name="C:\fullfarm\handler\src\main\resources" />
+      <recent name="C:\fullfarm\dashboard\src\main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="by.flex" />
       <recent name="by.flex.mongo" />
@@ -355,16 +374,6 @@
       <recent name="C:\fullfarm\dashboard\src\main\resources\templates\static" />
       <recent name="C:\fullfarm\dashboard\src\main\resources" />
       <recent name="C:\fullfarm\dashboard\src\main\webapp\WEB-INF" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\fullfarm\dashboard\src\main\resources\keystore" />
-      <recent name="C:\fullfarm\dashboard\src\main\resources" />
-      <recent name="C:\fullfarm\dashboard\src\main\resources\templates" />
-      <recent name="C:\fullfarm\handler\src\main\resources" />
-      <recent name="C:\fullfarm\dashboard\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,7 +394,7 @@
     </option>
     <option name="contentProportion" value="0.23879443" />
   </component>
-  <component name="RunManager" selected="JUnit.DevicesControllerTest.graphs">
+  <component name="RunManager" selected="Spring Boot.DashApp">
     <configuration name="DevicesControllerTest.devicesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dashboard" />
       <extension name="coverage">
@@ -418,39 +427,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispenserServiceTest.copy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="handler" />
+    <configuration name="DashApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dashboard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.flex.mongo_service.*" />
+          <option name="PATTERN" value="by.flex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.flex.mongo_service" />
-      <option name="MAIN_CLASS_NAME" value="by.flex.mongo_service.DispenserServiceTest" />
-      <option name="METHOD_NAME" value="copy" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.flex.DashApp" />
+      <option name="URL_PATH" value="welcome" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispenserServiceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="handler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.flex.mongo_service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by.flex.mongo_service" />
-      <option name="MAIN_CLASS_NAME" value="by.flex.mongo_service.DispenserServiceTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandlerAppTest.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandlerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="handler" />
       <extension name="coverage">
         <pattern>
@@ -458,21 +449,31 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.flex" />
-      <option name="MAIN_CLASS_NAME" value="by.flex.HandlerAppTest" />
-      <option name="METHOD_NAME" value="run" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.flex.HandlerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.flex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.flex.RestApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DashApp" />
+        <item itemvalue="Spring Boot.HandlerApp" />
+        <item itemvalue="Spring Boot.RestApp" />
         <item itemvalue="JUnit.DevicesControllerTest.graphs" />
         <item itemvalue="JUnit.DevicesControllerTest.devicesList" />
-        <item itemvalue="JUnit.DispenserServiceTest.test" />
-        <item itemvalue="JUnit.DispenserServiceTest.copy" />
-        <item itemvalue="JUnit.HandlerAppTest.run" />
       </list>
     </recent_temporary>
   </component>
@@ -515,7 +516,8 @@
       <workItem from="1572711982910" duration="22691000" />
       <workItem from="1572793808444" duration="1431000" />
       <workItem from="1572795752079" duration="5450000" />
-      <workItem from="1572844952701" duration="9900000" />
+      <workItem from="1572844952701" duration="10132000" />
+      <workItem from="1572879564658" duration="3474000" />
     </task>
     <servers />
   </component>
@@ -552,7 +554,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227663000" />
+    <option name="totallyTimeSpent" value="231369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,9 +566,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-6" y="1" width="1292" height="733" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30925325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -577,7 +579,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.88379705" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.33060557" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.29459903" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,11 +593,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49924356" weight="0.3535188" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.9054463" visible="true" weight="0.25531915" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.9054463" visible="true" weight="0.515" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.2708018" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.19318181" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -766,26 +768,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/test/java/by/flex/controller/TestConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/DispenserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/test/java/by/flex/controller/TestConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/pojo/src/main/java/by/flex/pojoss/devices/Dispenser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -814,17 +797,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/MultipleMongoProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handler/src/test/java/by/flex/HandlerAppTest.java" />
+    <entry file="file://$PROJECT_DIR$/handler/src/test/java/by/flex/mongo_service/DispenserServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/mongo_service/DispenserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fullfarm.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/DevicesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/test/java/by/flex/controllers/DevicesControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="77" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/devices.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/graphs.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/test/java/by/flex/controller/DispenserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/DashApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -835,103 +889,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/test/java/by/flex/HandlerAppTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="66">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/java/by/flex/controller/DispenserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/HandlerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
+        <state relative-caret-position="-49" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/test/java/by/flex/mongo_service/DispenserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/src/main/java/by/flex/mongo_service/DispenserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/DashApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/devices.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/resources/templates/graphs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/DevicesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/by/flex/controllers/GraphController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="77" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/test/java/by/flex/controllers/DevicesControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/test/java/by/flex/controller/DispenserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fullfarm.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

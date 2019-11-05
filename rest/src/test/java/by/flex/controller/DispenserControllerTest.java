@@ -57,7 +57,7 @@ public class DispenserControllerTest {
                 findAny().get();
     }
 
-    public String name = "Disp8554549";
+    public String name = "Disp76878";
 
     @Before
     public void setup() throws Exception {

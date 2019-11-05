@@ -33,6 +33,8 @@ public class HandlerApp implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
+        //А ВООБЩЕ ТУТ ДОЛЖНА БЫТЬ ВАЛИДАЦИЯ
+
         while (true) {
             System.out.println("script start");
             System.out.println("wait 5 sec");
